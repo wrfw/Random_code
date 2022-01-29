@@ -1,0 +1,8 @@
+#!/bin/bash
+#To czas na pętle while
+ZMIENNA=0
+
+while (ZMIENNA<10); do
+	echo $ZMIENNA
+	ZMIENNA=$(($ZMIENNA+1))
+done
